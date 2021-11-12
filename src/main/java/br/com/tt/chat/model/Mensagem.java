@@ -32,6 +32,7 @@ public class Mensagem {
 
     public Mensagem(String texto) {
         this.texto = texto;
+        this.dataHoraEnvio = LocalDateTime.now();
     }
 
     public String getTexto() {
